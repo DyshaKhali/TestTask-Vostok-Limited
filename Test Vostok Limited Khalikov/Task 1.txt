@@ -1,0 +1,53 @@
+A) 
+CREATE TABLE Containers (
+    ID INT PRIMARY KEY,
+    Number INT,
+    Type NVARCHAR(255),
+    Length INT,
+    Width INT,
+    Height INT,
+    Weight INT,
+    Empty_NotEmpty BIT,
+    ArrivalDate DATETIME
+);
+
+CREATE TABLE Operations (
+    ID INT PRIMARY KEY,
+    ContainerID INT,
+    StartDate DATETIME,
+    EndDate DATETIME,
+    OperationType NVARCHAR(255),
+    OperatorName NVARCHAR(255),
+    InspectionLocation NVARCHAR(255),
+    FOREIGN KEY (ContainerID) REFERENCES Containers(ID)
+);
+
+B) 
+SELECT
+    '{' +
+    '"ID": "' + CAST(ID AS NVARCHAR) + '", ' +
+    '"Number": "' + CAST(Number AS NVARCHAR) + '", ' +
+    '"Type": "' + Type + '", ' +
+    '"Length": "' + CAST(Length AS NVARCHAR) + '", ' +
+    '"Width": "' + CAST(Width AS NVARCHAR) + '", ' +
+    '"Height": "' + CAST(Height AS NVARCHAR) + '", ' +
+    '"Weight": "' + CAST(Weight AS NVARCHAR) + '", ' +
+    '"Empty/NotEmpty": "' + CAST(Empty_NotEmpty AS NVARCHAR) + '", ' +
+    '"Arrival Date": "' + CONVERT(NVARCHAR, ArrivalDate, 120) + '"' + 
+    '}' AS json_format
+FROM Containers;
+
+C)
+SELECT
+    '{' +
+    '"ID": "' + CAST(ID AS NVARCHAR) + '", ' +
+    '"Container ID": "' + CAST(ContainerID AS NVARCHAR) + '", ' +
+    '"Start Date": "' + CONVERT(NVARCHAR, StartDate, 120) + '", ' +
+    '"End Date": "' + CONVERT(NVARCHAR, EndDate, 120) + '", ' +
+    '"Operation Type": "' + OperationType + '", ' +
+    '"Operator Name": "' + OperatorName + '", ' +
+    '"Inspection Location": "' + InspectionLocation + '"' +
+    '}' AS json_format
+FROM Operations
+WHERE ContainerID = @ContainerID;
+

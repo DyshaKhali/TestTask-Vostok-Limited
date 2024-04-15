@@ -1,0 +1,14 @@
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\bin\Debug\Task 2 VL Khalikov.exe.config
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\bin\Debug\Task 2 VL Khalikov.exe
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\bin\Debug\Task 2 VL Khalikov.pdb
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\obj\Debug\Task 2 VL Khalikov.csproj.AssemblyReference.cache
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\obj\Debug\MainWindow.g.cs
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\obj\Debug\App.g.cs
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\obj\Debug\Task 2 VL Khalikov_MarkupCompile.cache
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\obj\Debug\MainWindow.baml
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\obj\Debug\Task 2 VL Khalikov.g.resources
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\obj\Debug\Task_2_VL_Khalikov.Properties.Resources.resources
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\obj\Debug\Task 2 VL Khalikov.csproj.GenerateResource.cache
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\obj\Debug\Task 2 VL Khalikov.csproj.CoreCompileInputs.cache
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\obj\Debug\Task 2 VL Khalikov.exe
+C:\Users\EduardKH\Desktop\Test Vostok Limited Khalikov\Task 2 VL Khalikov\Task 2 VL Khalikov\obj\Debug\Task 2 VL Khalikov.pdb
